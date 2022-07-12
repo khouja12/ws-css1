@@ -1,0 +1,80 @@
+                        /*nav part*/
+        nav{
+background-color: cadetblue;
+color: aliceblue;
+display: flex;
+justify-content: space-between;
+}
+                    /*ul and li part*/
+            ul{
+    display:flex 
+}
+            li{list-style: none;
+margin: 1rem;}
+            a{
+text-decoration: none;
+color: aliceblue;
+}
+               /*main part*/
+             .logo
+{padding: 2rem;}
+
+.container{
+    text-align: center;
+margin:10%;
+color: #fff;
+background-color: rgb(139, 158, 158);
+width: 50%;
+border-radius: 10%;
+margin-top: 10%;
+margin-left: 25%;
+padding:3%;}
+
+
+                /*gallery*/
+
+
+.gallery h2{
+    text-align: center;
+    font-size: xx-large;
+}
+.gallery img{ 
+    width: 400px;
+    height: 400px;
+    margin-left: 5rem;
+ margin-top: 2rem;}
+
+
+             /*potfolio part */
+  .portfolio{
+    display: flex;
+    width:80%;
+    margin: 100px 200px ;
+    text-align: center;
+
+   
+}
+  .portfolio h2{
+    text-align: center;
+    font-size: x-large;
+  }
+  .portfolio img{
+    width: 300px;
+height: 400px;
+}
+
+
+.port-text {
+width: 30%;
+padding: 20px;
+margin-right: 100px;
+}
+            /*footer part*/
+
+            .footer{
+              background-color: grey;
+              text-align: center;
+              color: #fff;
+              margin-top: 100px;
+         height: 200px;
+            padding: 3%;}
